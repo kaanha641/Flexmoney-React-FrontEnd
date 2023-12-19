@@ -1,0 +1,45 @@
+/* contact.css */
+
+.contact {
+    padding: 20px;
+    background-color: #f4f4f4; /* Replace with your desired background color */
+    color: #333; /* Text color for the rest of the content */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* Replace with your desired background color for the form */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Customize text color and font-weight for email and contact information sections */
+  .form-group label,
+  .contact-info p {
+    color: #000; /* Text color for the email and contact information sections */
+    font-weight: bold; /* Font weight for the email and contact information sections */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  

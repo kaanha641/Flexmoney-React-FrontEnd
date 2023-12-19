@@ -1,0 +1,45 @@
+/* classes.css */
+
+.classes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .slot:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .slot p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .slot.registered {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .slot.registered:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  
